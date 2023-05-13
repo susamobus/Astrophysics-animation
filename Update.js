@@ -4,4 +4,5 @@ function Load() {
 
 window.setInterval(() => {
     UpdateInputs()
-}, 250);
+    SetScene()
+}, 500);
