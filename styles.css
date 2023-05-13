@@ -8,6 +8,7 @@ body {
 .Display {
     height: 50%;
     width: 60%;
+    border: 1px solid black;
     margin: 0px auto;
 }
 
