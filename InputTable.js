@@ -57,7 +57,7 @@ function CreateInputTable() {
     text.innerHTML = "Stepsize"
     cell.appendChild(text)
     row.appendChild(cell)
-    let cell = document.createElement("rowspan")
+    let cell = document.createElement("td")
     let input = document.createElement("input")
     input.type = "number"
     input.id = "Stepsize"
@@ -71,7 +71,7 @@ function CreateInputTable() {
     text.innerHTML = "Steps"
     cell.appendChild(text)
     row.appendChild(cell)
-    let cell = document.createElement("rowspan")
+    let cell = document.createElement("td")
     let input = document.createElement("input")
     input.type = "number"
     input.id = "Steps"
