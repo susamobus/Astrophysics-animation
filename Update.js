@@ -2,7 +2,7 @@ function Load() {
     CreateInputTable()
 }
 
-window.setInterval(() => {
-    UpdateInputs()
-    SetScene()
-}, 500);
+//window.setInterval(() => {
+  //  UpdateInputs()
+   // SetScene()
+//}, 500);
