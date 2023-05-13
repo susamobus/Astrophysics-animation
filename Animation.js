@@ -15,9 +15,10 @@ function RemoveScene() {
     }
 }
 
+const meshes = []
+
 function SetScene() {
     RemoveScene()
-    const meshes = []
     for (i = 1; i <= n; i++) {
     const geometry = new THREE.SphereGeometry(1,1,1);
     const material = new THREE.MeshNormalMaterial();
