@@ -1,0 +1,12 @@
+
+body {
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.Display {
+    height: 50%;
+    width: 60%;
+    margin: 0px auto;
+}
