@@ -4,7 +4,6 @@ var m = [0,0,0]
 var r = [[0,0,0],[0,0,0],[0,0,0]]
 var v = [[0,0,0],[0,0,0],[0,0,0]]
 var h = 1
-var steps = 1
 
 function Calculate() {
     for (i = 1; i <= n; i++) {

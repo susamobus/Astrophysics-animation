@@ -17,3 +17,13 @@ body {
     border-spacing: 0px;
     border: 1px solid black;
 }
+
+.TableInput {
+    border: none;
+    padding: 1px;
+}
+.TableInput:focus-visible {
+    border: 1px solid black;
+    padding: 0px;
+    outline: none;
+}

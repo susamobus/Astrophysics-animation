@@ -20,6 +20,7 @@ function CreateInputTable() {
     for (i = 1; i <= n; i++) {
         let cell = document.createElement("td")
         let input = document.createElement("input")
+        input.className = "TableInput"
         input.type = "number"
         input.id = "Mass" + i
         cell.appendChild(input)
@@ -43,6 +44,7 @@ function CreateInputTable() {
         for (j = 1; j <= n; j++) {
             let cell = document.createElement("td")
             let input = document.createElement("input")
+            input.className = "TableInput"
             input.type = "number"
             input.id = variable + j
             input.placeholder = variable + j
@@ -59,22 +61,9 @@ function CreateInputTable() {
     row.appendChild(cell)
     let cell = document.createElement("td")
     let input = document.createElement("input")
+    input.className = "TableInput"
     input.type = "number"
     input.id = "Stepsize"
-    cell.appendChild(input)
-    row.appendChild(cell)
-    table.appendChild(row)
-
-    let row = document.createElement("tr")
-    let cell = document.createElement("td")
-    let text = document.createElement("span")
-    text.innerHTML = "Steps"
-    cell.appendChild(text)
-    row.appendChild(cell)
-    let cell = document.createElement("td")
-    let input = document.createElement("input")
-    input.type = "number"
-    input.id = "Steps"
     cell.appendChild(input)
     row.appendChild(cell)
     table.appendChild(row)
@@ -94,5 +83,4 @@ function UpdateInputs() {
         }
     }
     h = document.getElementById("Stepsize").value
-    steps = document.getElementById("Steps").value
 }
