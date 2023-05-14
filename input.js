@@ -1,11 +1,11 @@
-
+let i;
 function CreateInputTable() {
     let table = document.getElementById("inputtable");
     let row = document.createElement("tr");
     for (i = 1; i <= n; i++) {
         let cell = document.createElement("td")
         let text = document.createElement("span")
-        text.innerHTML = "Object" + i;
+        text.innerHTML = "Object" + i
         cell.appendChild(text)
         row.appendChild(cell)
     }
@@ -13,8 +13,8 @@ function CreateInputTable() {
  
     let row = document.createElement("tr");
     let cell = document.createElement("td");
-    let text = document.createElement("span");
-    text.innerHTML = "Mass";
+    let text = document.createElement("span"); 
+    text.innerHTML = "Mass"
     cell.appendChild(text)
     row.appendChild(cell)
     for (i = 1; i <= n; i++) {
