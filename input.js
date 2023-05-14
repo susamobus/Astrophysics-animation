@@ -1,8 +1,8 @@
-let i;
+
 function CreateInputTable() {
     let table = document.getElementById("inputtable");
     let row = document.createElement("tr");
-    for (i = 1; i <= n; i++) {
+    for (let i = 1; i <= n; i++) {
         let cell = document.createElement("td")
         let text = document.createElement("span")
         text.innerHTML = "Object" + i
@@ -17,7 +17,7 @@ function CreateInputTable() {
     text.innerHTML = "Mass"
     cell.appendChild(text)
     row.appendChild(cell)
-    for (i = 1; i <= n; i++) {
+    for (let i = 1; i <= n; i++) {
         let cell = document.createElement("td")
         let input = document.createElement("input")
         input.className = "TableInput"
@@ -28,7 +28,7 @@ function CreateInputTable() {
     }
     table.appendChild(row)
 
-    for (i = 1; i <= 3; i++) {
+    for (let i = 1; i <= 3; i++) {
         let variable = "x"
         let row = document.createElement("tr")
         let cell = document.createElement("td")
@@ -41,7 +41,7 @@ function CreateInputTable() {
         text.innerHTML = variable
         cell.appendChild(text)
         row.appendChild(cell)
-        for (j = 1; j <= n; j++) {
+        for (let j = 1; j <= n; j++) {
             let cell = document.createElement("td")
             let input = document.createElement("input")
             input.className = "TableInput"
