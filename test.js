@@ -1,4 +1,4 @@
 
-window.setInterval(() => {
+function Test() {
     document.getElementById("test").innerHTML = "success"
-}, 50);
+}
