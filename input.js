@@ -85,6 +85,6 @@ function UpdateInputs() {
     h = document.getElementById("Stepsize").value
 }
 
-window.setInterval(() => {
-    document.getElementById("test").innerHTML = "success"
-}, 50);
+function Test2() {
+    document.getElementById("test2").innerHTML = "success"
+}
