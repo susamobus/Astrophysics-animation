@@ -1,4 +1,4 @@
-
+/*
 function CreateInputTable() {
     let table = document.getElementById("inputtable");
     let row = document.createElement("tr");
@@ -69,7 +69,7 @@ function CreateInputTable() {
     table.appendChild(row)
 }
 
-/*
+*/
 
 function UpdateInputs() {
     for (i = 1; i <= n; i++) {
@@ -87,8 +87,8 @@ function UpdateInputs() {
     h = document.getElementById("Stepsize").value
 }
 
+/*
 function Test2() {
     document.getElementById("test2").innerHTML = "input"
 }
-
 */
