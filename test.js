@@ -70,8 +70,8 @@ function CreateInputTable() {
     input.type = "number"
     input.id = "Stepsize"
     cell.appendChild(input)
-    row.appendChild(cell)
-    table.appendChild(row)*/
+    row.appendChild(cell2)
+    table.appendChild(row)
     
 }
 
