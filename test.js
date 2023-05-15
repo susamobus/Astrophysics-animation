@@ -4,6 +4,7 @@ function Test() {
 
 function CreateInputTable() {
     let table = document.getElementById("inputtable");
+    /*
     let row = document.createElement("tr");
     for (let i = 1; i <= 3; i++) {
         let cell = document.createElement("td")
@@ -54,7 +55,7 @@ function CreateInputTable() {
         }
         table.appendChild(row)
     }
-
+*/
 
     let row = document.createElement("tr");
     let cell = document.createElement("td");
