@@ -67,8 +67,8 @@ function CreateInputTable() {
     let cell = document.createElement("td");
     let input = document.createElement("input");
    // input.className = "TableInput"
-   // input.type = "number"
-   // input.id = "Stepsize"
+    input.type = "number"
+    input.id = "Stepsize"
     cell.appendChild(input)
     row.appendChild(cell)
     table.appendChild(row)
