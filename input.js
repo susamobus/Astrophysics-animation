@@ -86,5 +86,6 @@ function UpdateInputs() {
 }
 
 function Test2() {
-    document.getElementById("test2").innerHTML = "success"
+    document.getElementById("test2").innerHTML = "input"
 }
+

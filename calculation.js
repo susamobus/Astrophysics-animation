@@ -17,3 +17,7 @@ function Calculate() {
         }
     }
 }
+
+function TestCalc() {
+    document.getElementById("testcalc").innerHTML = "calc"
+}
