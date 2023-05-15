@@ -57,7 +57,7 @@ function CreateInputTable() {
     }
 
 */
-    let row = document.createElement("tr");/*
+    let row = document.createElement("tr");
     let cell = document.createElement("td");
     let text = document.createElement("span");
     text.innerHTML = "Stepsize"
@@ -66,6 +66,7 @@ function CreateInputTable() {
    
     let cell = document.createElement("td");
     let input = document.createElement("input");
+    /*
     input.className = "TableInput"
     input.type = "number"
     input.id = "Stepsize"
