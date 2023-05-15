@@ -60,9 +60,9 @@ function CreateInputTable() {
     let row = document.createElement("tr");
     let cell = document.createElement("td");
     let text = document.createElement("span");
-    text.innerHTML = "Stepsize"
-    cell.appendChild(text)
-    row.appendChild(cell)
+  //  text.innerHTML = "Stepsize"
+  //  cell.appendChild(text)
+  //  row.appendChild(cell)
    
     let cell = document.createElement("td");
     let input = document.createElement("input");
