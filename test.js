@@ -15,12 +15,12 @@ function CreateInputTable() {
     }
     table.appendChild(row)
  
-    let row = document.createElement("tr");
-    let cell = document.createElement("td");
-    let text = document.createElement("span"); 
-    text.innerHTML = "Mass"
-    cell.appendChild(text)
-    row.appendChild(cell)
+    let row2 = document.createElement("tr");
+    let cell2 = document.createElement("td");
+    let text2 = document.createElement("span"); 
+    text2.innerHTML = "Mass"
+    cell.appendChild(text2)
+    row.appendChild(cell2)
     for (let i = 1; i <= 3; i++) {
         let cell = document.createElement("td")
         let input = document.createElement("input")
@@ -30,7 +30,7 @@ function CreateInputTable() {
         cell.appendChild(input)
         row.appendChild(cell)
     }
-    table.appendChild(row)
+    table.appendChild(row2)
 
     for (let i = 1; i <= 3; i++) {
         let variable = "x"
@@ -57,21 +57,21 @@ function CreateInputTable() {
     }
 
 
-    let row = document.createElement("tr");
-    let cell = document.createElement("td");
-    let text = document.createElement("span");
-    text.innerHTML = "Stepsize"
-    cell.appendChild(text)
-    row.appendChild(cell)
+    let row3 = document.createElement("tr");
+    let cell3 = document.createElement("td");
+    let text3 = document.createElement("span");
+    text3.innerHTML = "Stepsize"
+    cell3.appendChild(text3)
+    row3.appendChild(cell3)
    
-    let cell2 = document.createElement("td");
-    let input = document.createElement("input");
-    input.className = "TableInput"
-    input.type = "number"
-    input.id = "Stepsize"
-    cell.appendChild(input)
-    row.appendChild(cell2)
-    table.appendChild(row)
+    let cell4 = document.createElement("td");
+    let input4 = document.createElement("input");
+    input4.className = "TableInput"
+    input4.type = "number"
+    input4.id = "Stepsize"
+    cell4.appendChild(input4)
+    row4.appendChild(cell4)
+    table4.appendChild(row4)
     
 }
 
