@@ -64,7 +64,7 @@ function CreateInputTable() {
   //  cell.appendChild(text)
   //  row.appendChild(cell)
    
-    let cell = document.createElement("td");
+    let cell2 = document.createElement("td");
     let input = document.createElement("input");
     /*
     input.className = "TableInput"
