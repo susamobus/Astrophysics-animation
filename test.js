@@ -55,7 +55,7 @@ function CreateInputTable() {
         }
         table.appendChild(row)
     }
-*/
+
 
     let row = document.createElement("tr");
     let cell = document.createElement("td");
@@ -71,6 +71,7 @@ function CreateInputTable() {
     cell.appendChild(input)
     row.appendChild(cell)
     table.appendChild(row)
+    */
 }
 
 
