@@ -69,6 +69,8 @@ function CreateInputTable() {
     table.appendChild(row)
 }
 
+/*
+
 function UpdateInputs() {
     for (i = 1; i <= n; i++) {
         m[i-1] = document.getElementById("Mass" + i).value
@@ -89,3 +91,4 @@ function Test2() {
     document.getElementById("test2").innerHTML = "input"
 }
 
+*/
