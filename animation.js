@@ -1,6 +1,5 @@
 import * as THREE from 'three';
 
-
 const camera = new THREE.PerspectiveCamera(70, (window.innerWidth * 0.6) / (window.innerHeight * 0.5), 0.01, 10);
 camera.position.z = 1;
 
