@@ -36,7 +36,7 @@ function CreateInputTable() {
     }
     table.appendChild(row2)
 
-    for (let i = 1; i <= 3; i++) {
+    for (let i = 1; i <= n; i++) {
         let variable = "x"
         let row = document.createElement("tr")
         let cell = document.createElement("td")
@@ -56,6 +56,8 @@ function CreateInputTable() {
             input.type = "number"
             input.id = variable + j
             input.placeholder = variable + j
+            cell.appendChild(input)
+            row.appendChild(cell)
         }
         table.appendChild(row)
     }
@@ -68,7 +70,7 @@ function CreateInputTable() {
     cell3.appendChild(text3)
     row3.appendChild(cell3)
    
-    let cell4 = document.createElement("td");
+    let cell4 = document.createElement("rowspan");
     let input4 = document.createElement("input");
     input4.className = "TableInput"
     input4.type = "number"
