@@ -8,7 +8,7 @@ function CreateInputTable() {
     let row = document.createElement("tr");
     for (let i = 0; i <= n; i++) {
         let cell = document.createElement("td")
-        if (i == 0) {
+        if (i != 0) {
         let text = document.createElement("span")
         text.innerHTML = "Object" + i
         cell.appendChild(text)
@@ -70,7 +70,7 @@ function CreateInputTable() {
     row3.appendChild(cell3)
    
     for (i = 1; i <= 3; i++) {
-    let cell4 = document.createElement("rowspan");
+    let cell4 = document.createElement("td");
     if (i == 2) {
     let input4 = document.createElement("input");
     input4.className = "TableInput"
