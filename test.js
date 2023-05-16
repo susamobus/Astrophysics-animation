@@ -28,7 +28,7 @@ function CreateInputTable() {
         input.type = "number"
         input.id = "Mass" + i
         cell.appendChild(input)
-        row.appendChild(cell)
+        row2.appendChild(cell)
     }
     table.appendChild(row2)
 
@@ -70,8 +70,8 @@ function CreateInputTable() {
     input4.type = "number"
     input4.id = "Stepsize"
     cell4.appendChild(input4)
-    row4.appendChild(cell4)
-    table4.appendChild(row4)
+    row3.appendChild(cell4)
+    table.appendChild(row3)
     
 }
 
