@@ -31,6 +31,7 @@ function CreateInputTable() {
         input.className = "TableInput"
         input.type = "number"
         input.id = "Mass" + i
+        input.placeholder = "Mass" + i
         cell.appendChild(input)
         row2.appendChild(cell)
     }
@@ -70,13 +71,19 @@ function CreateInputTable() {
     cell3.appendChild(text3)
     row3.appendChild(cell3)
    
+    for (i = 1; i <= 3; i++) {
     let cell4 = document.createElement("rowspan");
+    if (i == 1 || i == 3) {
+        row3.appendChild(cell4)
+    } else {
     let input4 = document.createElement("input");
     input4.className = "TableInput"
     input4.type = "number"
     input4.id = "Stepsize"
     cell4.appendChild(input4)
     row3.appendChild(cell4)
+    }
+    }
     table.appendChild(row3)
     
 }
