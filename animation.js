@@ -30,10 +30,15 @@ function SetScene() {
 
 function animate() {
     requestAnimationFrame(animate);
+    /*
     Calculate()
     for (i = 1; i <= n; i++) {
         mesh[i-1].position.set(r[i-1][0],r[i-1][1],r[i-1][2])
     }
+    */
+   for (i = 1; i <= n; i++) {
+    mesh[i-1].position.set(mesh[i-1].position+1)
+   }
     renderer.render(scene,camera);
 }
 
