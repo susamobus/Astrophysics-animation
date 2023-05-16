@@ -9,13 +9,11 @@ function CreateInputTable() {
     for (let i = 0; i <= n; i++) {
         let cell = document.createElement("td")
         if (i == 0) {
-            row.appendChild(cell)
-        } else {
         let text = document.createElement("span")
         text.innerHTML = "Object" + i
         cell.appendChild(text)
-        row.appendChild(cell)
         }
+        row.appendChild(cell)
     }
     table.appendChild(row)
  
@@ -73,16 +71,14 @@ function CreateInputTable() {
    
     for (i = 1; i <= 3; i++) {
     let cell4 = document.createElement("rowspan");
-    if (i == 1 || i == 3) {
-        row3.appendChild(cell4)
-    } else {
+    if (i == 2) {
     let input4 = document.createElement("input");
     input4.className = "TableInput"
     input4.type = "number"
     input4.id = "Stepsize"
     cell4.appendChild(input4)
-    row3.appendChild(cell4)
     }
+    row3.appendChild(cell4)
     }
     table.appendChild(row3)
     
