@@ -15,7 +15,7 @@ function RemoveScene() {
 }
 
 const geometry = new THREE.BoxGeometry(1,1,1)
-const material = new THREE.MeshNormalMaterial()
+const material = new THREE.MeshNormalMaterial(0xffffff)
 const mesh = new THREE.Mesh(geometry, camera)
 
 const meshes = []
