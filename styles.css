@@ -21,6 +21,7 @@ body {
 .TableInput {
     border: none;
     padding: 1px;
+    border-radius: 0px;
 }
 .TableInput:focus-visible {
     border: 1px solid black;

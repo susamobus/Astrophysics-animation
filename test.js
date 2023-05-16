@@ -6,12 +6,16 @@ function CreateInputTable() {
     let table = document.getElementById("inputtable");
     
     let row = document.createElement("tr");
-    for (let i = 1; i <= 3; i++) {
+    for (let i = 0; i <= n; i++) {
         let cell = document.createElement("td")
+        if (i == 0) {
+            row.appendChild(cell)
+        } else {
         let text = document.createElement("span")
         text.innerHTML = "Object" + i
         cell.appendChild(text)
         row.appendChild(cell)
+        }
     }
     table.appendChild(row)
  
