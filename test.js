@@ -19,8 +19,8 @@ function CreateInputTable() {
     let cell2 = document.createElement("td");
     let text2 = document.createElement("span"); 
     text2.innerHTML = "Mass"
-    cell.appendChild(text2)
-    row.appendChild(cell2)
+    cell2.appendChild(text2)
+    row2.appendChild(cell2)
     for (let i = 1; i <= 3; i++) {
         let cell = document.createElement("td")
         let input = document.createElement("input")
