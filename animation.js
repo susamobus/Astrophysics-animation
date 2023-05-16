@@ -14,6 +14,10 @@ function RemoveScene() {
     }
 }
 
+const geometry = new THREE.SphereGeometry(1,1,1)
+const material = new THREE.MeshNormalMaterial()
+const mesh = new THREE.Mesh(geometry, camera)
+
 const meshes = []
 
 function SetScene() {
@@ -36,9 +40,7 @@ function animate() {
         mesh[i-1].position.set(r[i-1][0],r[i-1][1],r[i-1][2])
     }
     */
-   for (i = 1; i <= n; i++) {
-    mesh[i-1].position.set(mesh[i-1].position+1)
-   }
+   mesh.position.set(2,3,3)
     renderer.render(scene,camera);
 }
 
